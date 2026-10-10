@@ -32,6 +32,9 @@ li { margin: 7px 0; }
 .publication .venue { font-style: italic; color: #555; }
 .publication .paper-link, .project .code-link { font-size: 13px; }
 .project { margin-bottom: 20px; }
+.experience { margin-bottom: 20px; }
+.experience h3 { font-size: 15px; font-weight: 600; margin: 0 0 4px; }
+.experience p { font-size: 14px; margin: 0; }
 footer { max-width: 1002px; margin: 0 auto; padding: 20px 0 30px; border-top: 1px solid #eee; color: #777; font-size: 12px; }
 .skip-link { position: absolute; left: 16px; top: -100px; padding: 8px 12px; background: #fff; border: 1px solid #aaa; }
 .skip-link:focus { top: 5px; }
