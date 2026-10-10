@@ -9,7 +9,7 @@
   const email = document.getElementById("email-link"); email.textContent = p.email; email.href = `mailto:${p.email}`;
   p.links.forEach(item => { const a = link(item.label, item.url); if (a) document.getElementById("social-links").append(a); });
   const cv = safeUrl(p.cv); if (cv) { const a = document.getElementById("cv-link"); a.href = cv; a.hidden = false; }
-  ["LARGE LANGUAGE MODEL", "Biomedical Machine Learning", "Cancer Drug Response Prediction", "Drug–Target Interaction Prediction"].forEach(t => document.getElementById("research-list").append(el("li", t)));
+  ["LARGE LANGUAGE MODEL", "Biomedical Machine Learning", "AI for Cancer Research"].forEach(t => document.getElementById("research-list").append(el("li", t)));
   p.publications.forEach(item => {
     const article = el("article", undefined, "publication"); article.append(el("h3", item.title));
     const authors = el("p"); const pieces = item.authors.split(p.name);
